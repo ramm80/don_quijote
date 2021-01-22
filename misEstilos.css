@@ -1,0 +1,201 @@
+body {
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #474747;
+    font-weight: bold;
+    text-align: center;
+}
+
+hr {
+    color: #474747;
+    height: 2px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #474747;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 30px;
+}
+
+p {
+    color: #474747;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin: 30px;
+}
+
+#contenedor {
+	margin: auto;
+	width: 1000px;
+}
+
+header {
+	background-color: #8a8a8a;
+	height: 100px;
+	vertical-align: middle;
+	line-height: 100px;
+}
+
+header h1 {
+	color: #f0f0f0;
+}
+
+header img {
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+nav {
+	background-color: #8a8a8a;
+	width: 200px;
+	height: 500px;
+	float: left;
+}
+
+.menu {
+	width: 100%;
+}
+
+.menu td {
+	color: #f0f0f0;
+	width: 100%;
+	margin: 0px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 5px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #8a8a8a;
+}
+
+.menu tr td a:link {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+.menu tr td a:visited {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+.menu tr td a:hover {
+	color: #f0f0f0;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.menu tr td a:active {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+main {
+	float: left;
+	height: 500px;
+	width: 800px;
+	overflow: auto;
+}
+
+main p {
+	color: #474747;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: auto;
+    margin: 10px;
+}
+
+footer {
+	background-color: #8a8a8a;
+	height: 50px;
+	clear: both;
+}
+
+footer p {
+	color: #f0f0f0;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	height: 50px;
+    font-family: auto;
+    font-size: auto;
+    margin: 0px;
+}
+
+footer p a:link {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+footer p a:visited {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+footer p a:hover {
+	color: #f0f0f0;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+footer p a:active {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+#cervantes img {
+	margin: 10px;
+	float: left;
+	height: 240px;
+	width: 300px;
+}
+
+#personajes ul {
+	padding: 0px;
+}
+
+#personajes ul li {
+	height: 100px;
+	margin: 10px;
+	line-height: 100px;
+	list-style: none;
+	vertical-align: middle;
+	clear: both;
+}
+
+#personajes ul li img{
+	float: left;
+	width: 100px;
+	height: 100px;
+	padding-right: 10px;
+}
+
+#capitulo h2 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #474747;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#capitulo hr {
+	border-color: #474747;
+	border-style: solid;
+	border-width: 1px;
+	color: #474747;
+    height: 0px;
+}
+
+#frases {
+	display: flex;
+}
+
+#frases iframe {
+	border: 0px;
+	height: 500px;
+	width: 800px;
+}
